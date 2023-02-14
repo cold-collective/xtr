@@ -1,0 +1,16 @@
+/// buildsrc start ///
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url 'https://papermc.io/repo/repository/maven-public/'}
+    }
+}
+/// buildsrc end ///
+
+rootProject.name = "xtr"
+
+/// buildsrc start ///
+include 'buildsrc'
+/// buildsrc end ///
+
+include 'xtr-util'

@@ -22,4 +22,3 @@ gradle/wrapper/gradle-wrapper.properties
 # secret
 /gradle.properties
 /secret-keys.gpg
-/secret-keys.gpg
